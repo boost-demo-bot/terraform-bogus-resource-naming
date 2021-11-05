@@ -19,6 +19,7 @@ locals {
     "elasticache_cluster"                 = "40"  # https://docs.aws.amazon.com/AmazonElastiCache/latest/APIReference/API_CreateCacheCluster.html
     "elasticache_parameter_group"         = "255" # https://docs.aws.amazon.com/AmazonElastiCache/latest/mem-ug/ParameterGroups.Creating.html
     "elasticsearch_domain"                = "28"  # https://docs.aws.amazon.com/elasticsearch-service/latest/developerguide/es-createupdatedomains.html#es-createdomains
+    "glue_job"                            = "255" # https://docs.aws.amazon.com/glue/latest/webapi/API_CreateJob.html
     "iam_instance_profile"                = "128" # https://docs.aws.amazon.com/IAM/latest/APIReference/API_CreateInstanceProfile.html
     "iam_role"                            = "64"  # https://docs.aws.amazon.com/IAM/latest/APIReference/API_CreateRole.html
     "instance"                            = "255" # https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_Tag.html
