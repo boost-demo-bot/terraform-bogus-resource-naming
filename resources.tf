@@ -34,6 +34,7 @@ locals {
     "security_group"                      = "255" # https://docs.aws.amazon.com/AWSEC2/latest/APIReference/API_CreateSecurityGroup.html
     "sns_topic"                           = "256" # https://docs.aws.amazon.com/sns/latest/api/API_CreateTopic.html
     "sqs_queue"                           = "80"  # https://docs.aws.amazon.com/AWSSimpleQueueService/latest/APIReference/API_CreateQueue.html
+    "step_function"                       = "80"  # https://docs.aws.amazon.com/step-functions/latest/apireference/API_CreateStateMachine.html
     "waf_byte_match_set"                  = "128" #	https://docs.aws.amazon.com/waf/latest/APIReference/API_CreateByteMatchSet.html
     "waf_geo_match_set"                   = "128" #	https://docs.aws.amazon.com/waf/latest/APIReference/API_CreateGeoMatchSet.html
     "waf_ipset"                           = "128" #	https://docs.aws.amazon.com/waf/latest/APIReference/API_CreateIPSet.html
