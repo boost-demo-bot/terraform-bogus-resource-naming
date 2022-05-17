@@ -48,6 +48,7 @@ This module will help you to generate a unique resource name by adding `random_i
 - cloudwatch_event_rule
 - cloudwatch_log_group
 - cloudwatch_metric_alarm
+- cloudwatch_metric_stream
 - codebuild_project
 - codecommit_repository
 - codepipeline
@@ -75,6 +76,7 @@ This module will help you to generate a unique resource name by adding `random_i
 - security_group
 - sns_topic
 - sqs_queue
+- step_function
 - waf_byte_match_set
 - waf_geo_match_set
 - waf_ipset
