@@ -115,7 +115,7 @@ You need to know what resource you want to provision (`resource_type`) and what 
 
 ```hcl
 provider "random" {
-  version = ">= 1.2.0, < 3.0.0"
+  version = ">= 1.2.0, < 4.0.0"
 }
 
 module "aws-resource-naming_lambda_role" {
@@ -127,7 +127,7 @@ module "aws-resource-naming_lambda_role" {
 
 resource "aws_iam_role" "lambda_role" {
   name        = "${module.aws-resource-naming_lambda_role.name}"
-  path        = "/lambda-role/"                                       
+  path        = "/lambda-role/"
   description = "Lambda Role for Daily Scheduler"
 
   assume_role_policy   = "${data.aws_iam_policy_document.lambda_assume_role_policy.json}"

@@ -1,5 +1,5 @@
 provider "random" {
-  version = ">= 1.2.0, < 3.0.0"
+  version = ">= 1.2.0, < 4.0.0"
 }
 
 locals {
