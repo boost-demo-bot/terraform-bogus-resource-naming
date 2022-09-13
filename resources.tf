@@ -63,5 +63,6 @@ locals {
     "wafregional_sql_injection_match_set" = "128" #	https://docs.aws.amazon.com/waf/latest/APIReference/API_regional_CreateSqlInjectionMatchSet.html
     "wafregional_web_acl"                 = "128" #	https://docs.aws.amazon.com/waf/latest/APIReference/API_regional_CreateWebACL.html
     "wafregional_xss_match_set"           = "128" #	https://docs.aws.amazon.com/waf/latest/APIReference/API_regional_CreateXssMatchSet.html
+    "global_accelerator"                  = "255" # https://docs.aws.amazon.com/global-accelerator/latest/api/API_Accelerator.html 
   }
 }
